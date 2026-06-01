@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://cdn.nefyu.my.id/674r.jpg" alt="NefuSite Banner" width="600"/>
+  <img src="[https://cdn.nefyu.my.id/674r.jpg](https://c.tiyan.biz.id/pazA.webp)" alt="NefuSite Banner" width="600"/>
 </div>
 
 <h1 align="center">NefuSite - Proyek Super Hemat 🚀</h1>
