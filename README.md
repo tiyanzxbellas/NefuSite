@@ -84,7 +84,7 @@ Sekarang, kita siapkan proyek di komputer Anda.
 
     ```ini
     # GITHUB CREDENTIALS - WAJIB DIISI
-    GITHUB_TOKEN="ghp_TOKEN GITHUB"
+    GITHUB_TOKEN="ghp_TOKEN_GITHUB"
     GITHUB_USER="username-github"
     CDN_REPO="cdn-files" # Nama repo CDN
     GIST_ID="777edxxxxxxx" # ID Gist
@@ -133,10 +133,10 @@ Klik tombol **Add New**, lalu isikan:
 
 | Key | Value |
 |-----|-------|
-| `GITHUB_TOKEN` | `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` |
+| `GITHUB_TOKEN` | `ghp_xxxxx` (contoh: `ghp_5aRu8`) |
 | `GITHUB_USER` | `tiyanzxbellas` |
 | `CDN_REPO` | `my-cdn-files` |
-| `GIST_ID` | `a8577bf7fd9497be37397e6d6642866d` |
+| `GIST_ID` | `a857...` (contoh: `a857`) |
 | `APP_DOMAIN` | `https://namaprojectmu.vercel.app` |
 
 **Untuk setiap Key, pilih Environment:**
@@ -153,7 +153,7 @@ Setelah semua Key dan Value terisi:
 2. Klik 3 titik (⋯) pada deployment terakhir
 3. Pilih **Redeploy**
 
-> ⚠️ **Catatan:** Ganti `APP_DOMAIN` dengan domain Vercel asli kamu setelah deploy selesai!
+> ⚠️ **Catatan:** Gunakan token dan Gist ID asli milik kamu, jangan yang contoh. Ganti `APP_DOMAIN` dengan domain Vercel asli kamu setelah deploy selesai!
 
 ---
 
