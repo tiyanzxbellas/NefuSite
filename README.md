@@ -117,4 +117,44 @@ Hampir selesai! Tinggal jalankan aplikasinya.
 
 ---
 
+## ☁️ Langkah Mengisi Environment Variables di Vercel
+
+Saat deployment ke Vercel, ikuti langkah-langkah berikut untuk mengisi Key dan Value:
+
+### Langkah 4: Masuk ke Environment Variables
+
+1. Buka dashboard project di [vercel.com](https://vercel.com)
+2. Klik menu **Settings**
+3. Klik **Environment Variables** di sebelah kiri
+
+### Langkah 5: Tambah Key dan Value Satu Per Satu
+
+Klik tombol **Add New**, lalu isikan:
+
+| Key | Value |
+|-----|-------|
+| `GITHUB_TOKEN` | `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` |
+| `GITHUB_USER` | `tiyanzxbellas` |
+| `CDN_REPO` | `my-cdn-files` |
+| `GIST_ID` | `a8577bf7fd9497be37397e6d6642866d` |
+| `APP_DOMAIN` | `https://namaprojectmu.vercel.app` |
+
+**Untuk setiap Key, pilih Environment:**
+- ☑ Production
+- ☑ Preview
+- ☑ Development
+
+Setelah mengisi satu Key, klik **Add** dan ulangi untuk Key berikutnya.
+
+### Langkah 6: Redeploy
+
+Setelah semua Key dan Value terisi:
+1. Buka tab **Deployments**
+2. Klik 3 titik (⋯) pada deployment terakhir
+3. Pilih **Redeploy**
+
+> ⚠️ **Catatan:** Ganti `APP_DOMAIN` dengan domain Vercel asli kamu setelah deploy selesai!
+
+---
+
 Selamat mencoba dan semoga berhasil dengan proyek super hemat Anda! (´• ω •\`) ♡
